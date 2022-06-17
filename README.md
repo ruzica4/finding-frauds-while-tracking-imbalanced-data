@@ -24,6 +24,7 @@ Lending_club_loan_data.csv dataset can be downloaded from [this](https://www.kag
 
 #### Feature_engineering_and_modeling.ipynb
 * The mean -strategy imputer was used to fill in the missing values
+* Features were scaled using MinMaxScaler
 * Categorical features were encoded
-* Encoded and imputed data was stored in the Encoded_data.csv file
+* Encoded, scaled and imputed data was stored in the Encoded_data.csv file
 * For prediction, I used the following classifiers: XGBClassifier, RandomForestClassifier and DecisionTreeClassifier
