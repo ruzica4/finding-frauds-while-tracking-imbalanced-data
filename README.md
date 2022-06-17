@@ -7,9 +7,7 @@ LendingClub is a peer-to-peer lending company, meaning that it allows individual
 
 This repository contains the following files:
 * Data_cleaning.ipynb
-* Cleaned_data.csv
 * Feature_engineering_and_modeling.ipynb
-* Encoded_data.csv
 
 In case .ipynb files are too large to be rendered, online tool, [nbviewer](https://nbviewer.org/) can be used.  
 I have used Azure Synapse Analytics for this project, because the Lending_club_loan_data.csv file was very large in size (1.7GB).  
