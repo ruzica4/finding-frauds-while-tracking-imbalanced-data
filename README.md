@@ -11,12 +11,19 @@ This repository contains the following files:
 * Feature_engineering_and_modeling.ipynb
 * Encoded_data.csv
 
-In case .ipynb files are too large to be rendered, online tool, [nbviewer](https://nbviewer.org/) can be used for the rendering.
+In case .ipynb files are too large to be rendered, online tool, [nbviewer](https://nbviewer.org/) can be used.
+I have used Azure Synapse Analytics for this project, because the Lending_club_loan_data.csv file was very large in size (1.7GB).
+Lending_club_loan_data.csv dataset can be downloaded from [this](https://www.kaggle.com/datasets/wordsforthewise/lending-club) link.
 
-In the Data_cleaning.ipinb notebook, I removed the features (columns) and reduced the feature space from 151 to 24. For each feature considered, there is a graph / histogram display. The initial dataset, Lending_club_loan_data.csv (downloaded from this link https://www.kaggle.com/datasets/wordsforthewise/lending-club) contained 2260701 rows. The cleaned data is saved in the file Cleaned_data.csv and has 1270217 rows.
+## Short description
 
+#### Data_cleaning.ipynb notebook
+* Unnecessary features (columns) was removed and the feature space was reduced from 151 to 24
+* There is a graph/histogram representation for each considered feature
+* Cleaned data is saved in the Cleaned_data.csv file and it contains 1270217 rows (dropped down from 2260701 rows).   
 
-In Feature_engineering_and_modeling.ipynb notebook, missing values have been filled. Also, categorical features have been encoded.
-Models XGBClassifier, RandomForestClassifier and DecisionTreeClassifier have been trained on the encoded data.
-
-Encoded_data.csv contains cleaned, imputed and encoded data.
+#### Feature_engineering_and_modeling.ipynb
+* Imputer with mean-strategy was used to fill in the missing values
+* Categorical features were encoded
+* Encoded and imputed data can be found in the Encoded_data.csv file
+* For prediction, I used the following classifiers: XGBClassifier, RandomForestClassifier and DecisionTreeClassifier
