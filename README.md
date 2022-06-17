@@ -1,5 +1,5 @@
 # finding-frauds-while-tracking-imbalanced-data
-Markup :  ## Repository for the course project of Artificial Inteligence ##
+Repository for the course project of Artificial Inteligence
 
 This project uses Lending_club_loan_data.csv data to predict whether a loan will be paid or charged-off. 
 
@@ -9,10 +9,10 @@ LendingClub enabled borrowers to create loan listings on its website by supplyin
 More information on the LendinClub can be found [here](https://en.wikipedia.org/wiki/LendingClub#Overview).
 
 This repository contains the following files:
-Data_cleaning.ipynb
-Cleaned_data.csv
-Feature_engineering_and_modeling.ipynb
-Encoded_data.csv
+* Data_cleaning.ipynb
+* Cleaned_data.csv
+* Feature_engineering_and_modeling.ipynb
+* Encoded_data.csv
 
 In case .ipynb files are too large to be rendered, online tool, [nbviewer](https://nbviewer.org/) can be used for the rendering.
 
