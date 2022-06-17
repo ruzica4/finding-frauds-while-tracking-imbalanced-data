@@ -1,5 +1,5 @@
 # finding-frauds-while-tracking-imbalanced-data
-Repository for the course project of Artificial Inteligence
+Markup :  ## Repository for the course project of Artificial Inteligence ##
 
 This project uses Lending_club_loan_data.csv data to predict whether a loan will be paid or charged-off. 
 
