@@ -3,7 +3,7 @@
 
 This project uses Lending_club_loan_data.csv data to predict whether a loan will be paid or charged-off. 
 
-LendingClub is a peer-to-peer lending company, meaning that it allows individuals or businesses to lend money through online services that match them with borrowers. More information on the LendinClub can be found [here](https://en.wikipedia.org/wiki/LendingClub#Overview).
+LendingClub is a peer-to-peer lending company, meaning that it allows individuals or businesses to lend money through online services that match them with borrowers. More information on the LendingClub can be found [here](https://en.wikipedia.org/wiki/LendingClub#Overview).
 
 This repository contains the following files:
 * Data_cleaning.ipynb
@@ -18,12 +18,12 @@ Lending_club_loan_data.csv dataset can be downloaded from [this](https://www.kag
 ## Short description
 
 #### Data_cleaning.ipynb notebook
-* Unnecessary features (columns) was removed and the feature space was reduced from 151 to 24
+* Unnecessary features (columns) have been removed and the feature space has been reduced from 151 to 24
 * There is a graph/histogram representation for each considered feature
-* Cleaned data is saved in the Cleaned_data.csv file and it contains 1270217 rows (dropped down from 2260701 rows).   
+* Cleaned data is stored in the Cleaned_data.csv file and contains 1270217 rows (dropped down from 2260701 rows)
 
 #### Feature_engineering_and_modeling.ipynb
-* Imputer with mean-strategy was used to fill in the missing values
+* The mean -strategy imputer was used to fill in the missing values
 * Categorical features were encoded
-* Encoded and imputed data can be found in the Encoded_data.csv file
+* Encoded and imputed data was stored in the Encoded_data.csv file
 * For prediction, I used the following classifiers: XGBClassifier, RandomForestClassifier and DecisionTreeClassifier
